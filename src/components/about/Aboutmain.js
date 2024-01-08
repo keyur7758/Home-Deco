@@ -1,7 +1,7 @@
 import React from 'react'
 import '../about/About.css'
 import About from './About'
-import Header from '../footer/header/Header'
+import Header from '../header/Header'
 import Marguee from '../marquee/Marguee'
 import Award from '../award-area/Award'
 import Backpage from '../backpage/Backpage'

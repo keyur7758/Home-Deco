@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../footer/header/Header'
+import Header from '../header/Header'
 import '../home/Home.css'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';

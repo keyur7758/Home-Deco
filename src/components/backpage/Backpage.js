@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import '../backpage/Backpage.css'
-import Header from '../footer/header/Header';
+import Header from '../header/Header';
 import { Link } from 'react-router-dom';
 export default function Backpage(props) {
   return (

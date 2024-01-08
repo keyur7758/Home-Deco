@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../contact/Contact.css'
-import Header from '../footer/header/Header'
+import Header from '../header/Header'
 import Button from 'react-bootstrap/Button';
 import $ from 'jquery'
 

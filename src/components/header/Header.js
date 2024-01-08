@@ -34,7 +34,7 @@ export default function Header() {
                 <div className='row g-0'>
                     <div className='col-md-6 col-6'>
                         <div className='header-box'>
-                            <h2 className='logo'><img className='img-fluid home-logo' src='/images/Home-Logo.png'/></h2>
+                            <h2 className='logo'><Link to="/"><img className='img-fluid home-logo' src='/images/Home-Logo.png'/></Link></h2>
                         </div>
                     </div>
                     <div className='col-md-6 col-6'>
