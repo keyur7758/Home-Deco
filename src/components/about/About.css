@@ -1,0 +1,41 @@
+
+    .about-main-area{
+        overflow: hidden;
+    }
+.about-area .img-box {
+    padding: 60px;
+}
+.about-area h2{
+    font-family: 'Playfair Display SC', serif;
+    color: #5b4d4a;
+    font-weight: 600;
+}
+.about-area p{
+    font-family: 'Playfair Display SC', serif;
+    color: #827976;
+}
+.about-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.about-title {
+    text-align: center;
+}
+
+@media (max-width:1200px){
+    .about-area h2 {
+        font-size: 25px;
+    }.about-area p {
+        font-size: 14px;
+    }
+}
+@media (max-width:992px){
+    .about-area h2 {
+        font-size: 20px;
+    }.about-area p {
+        font-size: 12px;
+    }.about-area .img-box {
+        padding: 30px;
+    }
+}

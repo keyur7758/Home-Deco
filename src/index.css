@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul,li,a,p{
+  margin: 0;
+  padding: 0;
+}
+.book-btn{
+  margin-top: 10px;
+  border-radius: 1px !important;
+  color: #5b4d4a !important;
+    border-color: #a4786f !important; 
+}

@@ -1,0 +1,29 @@
+.mark-area .mark-img {
+    margin: 0px 30px;
+}
+.mark-area{
+    margin-top: 50px;
+}
+.mark-area h2{
+    font-family: 'Outfit', sans-serif;
+    color: #5b4d4a;
+    margin-bottom: 30px;
+}
+
+@media(max-width:992px){
+    .mark-area .mark-img img{
+        height: 90px;
+    }
+}
+@media(max-width:768px){
+    .mark-area .mark-img img{
+        height: 80px;
+    }.mark-area h2 {
+        font-size: 16px;
+    }
+}
+@media(max-width:576px){
+    .mark-area .mark-img img{
+        height: 50px;
+    }
+}

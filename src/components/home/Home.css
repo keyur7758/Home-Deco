@@ -1,0 +1,230 @@
+.slider-area img {
+    padding-right: 10px;
+    height: 500px;
+}
+
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+    display: block !important;
+}
+
+button.owl-next span {
+    border-radius: 50%;
+    font-size: 30px !important;
+    padding: 5px 20px !important;
+    background: black !important;
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 0px;
+}
+
+button.owl-prev span {
+    border-radius: 50%;
+    font-size: 30px !important;
+    padding: 5px 20px !important;
+    background: black !important;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+}
+
+.slider-area h4 {
+    color: #4f7495;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.slide-head-detail-2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slide-head-detail {
+    padding-left: 50px;
+}
+
+.slide-head .slide-head-btn {
+    border-radius: 1px;
+}
+
+.slide-head h2 {
+    font-family: 'Playfair Display SC', serif;
+        color: #5b4d4a;
+        font-weight: 600;
+}
+.slide-head p {
+    font-family: 'Playfair Display SC', serif;
+    color: #827976;;
+}
+
+.slide-head {
+    padding: 40px;
+}
+
+.wall-deco-area .deco-img-box {
+    width: 220px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.wall-deco-area .deco-box-2 {
+    padding: 100px;
+}
+
+.wall-deco-area .deco-box-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.wall-deco-area .deco-box-1 h2 {
+    font-family: 'Playfair Display SC', serif;
+        color: #5b4d4a;
+        font-weight: 600;
+}
+.wall-deco-area .deco-box-1 p {
+    font-family: 'Playfair Display SC', serif;
+    color: #827976;
+}
+
+.wall-deco-area .deco-box-2 .col {
+    overflow: hidden;
+}
+
+.deco-boc-details {
+    padding: 20px;
+}
+
+@media (max-width:1750px) {
+    .wall-deco-area .deco-box-2 {
+        padding: 0px;
+    }
+}
+
+@media (max-width:1330px) {
+    .wall-deco-area .deco-img-box {
+        width: 160px;
+        height: 140px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:1200px) {
+    .slider-area img {
+        height: 400px;
+    }
+
+    .slide-head h2 {
+        font-size: 25px;
+    }
+
+    .slide-head p {
+        font-size: 14px;
+    }
+
+    .wall-deco-area .deco-box-1 h2 {
+        font-family: 'Playfair Display SC', serif;
+        font-size: 25px;
+        color: #5b4d4a;
+        font-weight: 600;
+    }
+
+    .wall-deco-area .deco-box-1 p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:992px) {
+    .slider-area img {
+        height: 300px;
+    }
+
+    .slide-head h2 {
+        font-size: 20px;
+    }
+
+    .slide-head p {
+        font-size: 12px;
+    }
+
+    .wall-deco-area .deco-img-box {
+        width: 100%;
+        height: 140px;
+        margin-bottom: 0px;
+
+    }
+
+    .wall-deco-area .deco-box-2 .col {
+        padding: 10px;
+    }
+
+    .wall-deco-area .deco-box-1 h2 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 20px;
+    }
+
+    .wall-deco-area .deco-box-1 p {
+        font-size: 12px;
+    }
+
+    .slide-head {
+        padding: 20px;
+    }
+
+    button.owl-prev span {
+        font-size: 24px !important;
+        padding: 0px 14px !important;
+        top: 37%;
+    }
+
+    button.owl-next span {
+        font-size: 24px !important;
+        padding: 0px 14px !important;
+        top: 37%;
+    }
+
+    .slider-area h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    .slider-area img {
+        height: 260px;
+    }
+
+    .wall-deco-area .deco-img-box {
+        width: 100%;
+        height: 160px;
+    }
+
+    .slide-head-detail {
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+    .slider-area img {
+        height: 220px;
+    }
+
+    .slider-area h4 {
+        bottom: 5px;
+        font-size: 14px;
+        left: 12px;
+    }
+}
+
+@media (max-width:480px) {
+    .slider-area img {
+        height: 180px;
+    }
+}

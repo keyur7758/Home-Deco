@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+ul,
+li,
+a,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.Header-area .logo {
+    font-family: 'Outfit', sans-serif;
+}
+
+.Header-area ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.Header-area ul li {
+    list-style: none;
+    margin-right: 10px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.Header-area ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.Header-area .fa-bars-staggered {
+    font-size: 30px;
+    margin-left: 20px;
+    background: transparent;
+}
+
+.Header-area {
+    padding: 5px 50px;
+    position: relative;
+}
+
+.Header-area .header-box-2 {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    transition: ease-out 0.3s;
+}
+
+.menu-area {
+    background-color: black;
+    z-index: 20;
+}
+
+.menu-area .fa-xmark {
+    color: white;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.menu-box {
+    text-align: end;
+    margin-right: 50px;
+}
+
+.menu-box ul li {
+    list-style: none;
+    margin: 10px 0px;
+    color: white;
+}
+
+.menu-area {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu-area .book-btn {
+    color: white;
+    border: 1px solid white;
+}
+
+.menu-area .line {
+    width: 100%;
+    padding: 1px 0px;
+    background-color: white;
+}
+.menu-area ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-area .fa-facebook {
+    margin-right: 10px;
+}
+
+.menu-area .fa-instagram {
+    margin-right: 6px;
+}
+
+.menu-area .fa-twitter {
+    margin-right: 20px;
+}
+
+.home-logo {
+    width: 120px;
+}
+@media (max-width:992px){
+    .Header-area ul li{
+        display: none;
+    }.home-area h2 {
+        font-size: 25px;
+    }.home-area .home-content p{
+            font-size: 14px;
+            font-weight: 300;
+    }.home-logo {
+        width: 100px;
+    }
+}
+
+@media (max-width:576px){
+    .home-area h2 {
+        font-size: 18px;
+    }
+}

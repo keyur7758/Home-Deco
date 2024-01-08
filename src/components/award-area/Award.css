@@ -1,0 +1,78 @@
+.award-box{
+    /* background-image: url(/public/images/lr4.jpg); */
+    width: 100vw;
+    height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+ }.award-area .award-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }.award-area h1.award-title {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+.award-area .award-info {
+    margin-left: 50px;
+}
+.award-area {
+    overflow: hidden;
+    margin: 50px 100px;
+}
+
+.award-area .award-head h2,.award-title{
+    font-family: 'Playfair Display SC', serif;
+    color: #fff;
+    font-weight: 600;
+
+}
+.award-area .award-head .award-info p{
+    font-family: 'Playfair Display SC', serif;
+    color: #fff;
+
+}
+.award-detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:992px){
+    .award-area {
+        margin: 50px 40px;
+    }       
+    .award-area h1.award-title {
+        font-size: 40px;
+    }
+    .award-area .award-head h2, .award-title {
+        font-size: 20px;
+    }
+    .award-area .award-head .award-info p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:768px){
+    .award-box {
+        height: 30vh;
+    }
+}
+@media (max-width:576px){
+    .award-area {
+        margin: 50px 20px;
+    }       
+    .award-area h1.award-title {
+        font-size: 20px;
+    }
+    .award-area .award-head h2, .award-title {
+        font-size: 16px;
+    }
+    .award-area .award-head .award-info p {
+        font-size: 12px;
+    }  .award-box {
+        height: 20vh;
+    }
+}
