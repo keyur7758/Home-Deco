@@ -1,0 +1,28 @@
+
+.menu-area{
+    text-align: center;
+}
+.menu-box ul li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.menu-box ul li a:hover{
+ background-color: black;
+ color: white;
+ padding: 10px;
+ transition: all ease-out 0.3s;
+}
+.menu-box ul li a{
+  text-decoration: none;
+  color: black;
+}
+.menu-area ul{
+    padding: 0px;
+}
+.menu-area .fa-facebook, .fa-instagram, .fa-twitter{
+    margin-right: 10px;
+}.menu-area .menu-book-btn{
+    border-radius: 0px;
+    margin-bottom: 20px;
+    transition: all ease-out 0.3s;
+}
