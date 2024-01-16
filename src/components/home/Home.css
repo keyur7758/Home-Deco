@@ -213,7 +213,8 @@ button.owl-prev span {
 
 @media (max-width:576px) {
     .slider-area img {
-        height: 220px;
+        height: 260px;
+        padding-right: 0px;
     }
 
     .slider-area h4 {
@@ -223,8 +224,3 @@ button.owl-prev span {
     }
 }
 
-@media (max-width:480px) {
-    .slider-area img {
-        height: 180px;
-    }
-}

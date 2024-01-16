@@ -74,15 +74,17 @@
     .spec-box-heading .spec-para {
       display: none;
     } p.spec-line {
-        background: #827976;
-        padding: 1px 0px;
-        width: 100px;
-        margin-bottom: 8px;
+     display: none;
     }.spec-box-heading h6 {
         letter-spacing: 4px;
         font-size: 8px;
     }.spec-box-heading h1 {
-        font-size: 18px;
+        font-size: 16px;
         margin: 5px 0px;
+    }.spec-detail {
+        text-align: center;
+    }button.spec-btn.btn.btn-outline-dark {
+        padding: 2px 10px;
+        font-size: 10px;
     }
 }

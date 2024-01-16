@@ -16,12 +16,34 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
     const options = {
-        items: 1.7,
+        // items: 1.7,
         nav: true,
         rewind: true,
         autoplay: false,
         dots: false,
         loop: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1.7
+            },
+            // 768: {
+            //     items: 4
+            // },
+            // 992: {
+            //     items: 4
+            // },
+            // 1000: {
+            //     items: 5
+            // },
+            // 1600: {
+            //     items: 8
+            // }
+
+
+        }
     };
     return (
         <>

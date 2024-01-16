@@ -25,4 +25,7 @@
     border-radius: 0px;
     margin-bottom: 20px;
     transition: all ease-out 0.3s;
+}.menu-area .menu-box p.line {
+    background: #d1d1d1;
+    padding: 0.5px;
 }
